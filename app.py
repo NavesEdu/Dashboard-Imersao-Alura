@@ -135,4 +135,8 @@ with col_graf4:
 
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
-st.dataframe(df_filtrado)
+
+if not df_filtrado.empty:
+    st.dataframe(df_filtrado)
+else:
+    st.warning("Não há dados para exibir com os filtros selecionados. Por favor, ajuste as opções na barra lateral.")
