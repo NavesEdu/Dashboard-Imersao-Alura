@@ -134,8 +134,8 @@ with col_graf4:
         st.warning("Nenhum dado para exibir no gráfico de países.")
 
 # --- Tabela de Dados Detalhados ---
+st.markdown("---")
 st.subheader("Dados Detalhados")
-
 if not df_filtrado.empty:
     st.dataframe(df_filtrado)
 else:
