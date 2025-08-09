@@ -1,4 +1,4 @@
-# 🎲 Dashboard Interativo de Salários na Área de Dados
+# Dashboard Interativo de Salários na Área de Dados
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dashboard-imersao-alura-eduardo.streamlit.app/)
 
