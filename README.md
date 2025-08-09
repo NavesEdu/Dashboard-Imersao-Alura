@@ -31,14 +31,6 @@ O objetivo é fornecer uma ferramenta clara e intuitiva para que profissionais e
 
 ---
 
-## 🖼️ Screenshot do Dashboard
-
-*Adicione aqui um screenshot do seu dashboard em execução! Uma imagem ajuda muito a divulgar seu projeto.*
-
-![Screenshot do Dashboard](./screenshot.png)
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 Este projeto foi construído utilizando as seguintes tecnologias:
@@ -62,8 +54,8 @@ Para executar este dashboard na sua máquina local, siga os passos abaixo.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    cd seu-repositorio
+    git clone [https://github.com/NavesEdu/Dashboard-Imersao-Alura.git](https://github.com/NavesEdu/Dashboard-Imersao-Alura.git)
+    cd Dashboard-Imersao-Alura
     ```
 
 2.  **(Recomendado) Crie e ative um ambiente virtual:**
@@ -78,20 +70,12 @@ Para executar este dashboard na sua máquina local, siga os passos abaixo.
     source .venv/bin/activate
     ```
 
-3.  **Crie o arquivo `requirements.txt`:**
-    Este arquivo lista todas as bibliotecas que o projeto precisa. Crie um arquivo chamado `requirements.txt` e adicione o seguinte conteúdo:
-    ```txt
-    streamlit
-    pandas
-    plotly
-    ```
-
-4.  **Instale as dependências:**
+3.  **Instale as dependências:**
     ```bash
     pip install -r requirements.txt
     ```
 
-5.  **Execute a aplicação Streamlit:**
+4.  **Execute a aplicação Streamlit:**
     ```bash
     streamlit run app.py
     ```
