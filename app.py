@@ -64,6 +64,14 @@ col4.metric("Cargo mais frequente", cargo_mais_frequente)
 
 st.markdown("---")
 
+# --- Tabela de Dados Detalhados ---
+st.markdown("---")
+st.subheader("Dados Detalhados")
+if not df_filtrado.empty:
+    st.dataframe(df_filtrado)
+else:
+    st.warning("Não há dados para exibir com os filtros selecionados. Por favor, ajuste as opções na barra lateral.")
+
 # --- Análises Visuais com Plotly ---
 st.subheader("Gráficos")
 
@@ -132,11 +140,3 @@ with col_graf4:
         st.plotly_chart(grafico_paises, use_container_width=True)
     else:
         st.warning("Nenhum dado para exibir no gráfico de países.")
-
-# --- Tabela de Dados Detalhados ---
-st.markdown("---")
-st.subheader("Dados Detalhados")
-if not df_filtrado.empty:
-    st.dataframe(df_filtrado)
-else:
-    st.warning("Não há dados para exibir com os filtros selecionados. Por favor, ajuste as opções na barra lateral.")
